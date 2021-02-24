@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@192.168.9.168:1522/xe 
+    username: system
+    password: korail_123
+  jpa:    
+    open-in-view: false    
